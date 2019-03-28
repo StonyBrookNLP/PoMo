@@ -1,23 +1,31 @@
-# PostModifier
+# PoMo: Post-Modifier dataset
 
 1. Overview
 
-This dataset is for the hackathon at <em>2018 TTIC Workshop: Collaborative & Knowledge-backed Language Generation</em>. 
-It is split into train/valid/test, along with their wikidata entities. The split was done randomly but we made sure that there's no entity overlap accross the splits and followed the similar distribution of entity clusters based on their occupation. 
-Currently the dataset has post modifiers for <em>HUMAN</em> entities. 
-
-2. Files
-  - /dataset
-    - /human         
-      - train.pm
-      - train.wiki
-      - test.pm
-      - test.wiki
-      - valid.pm
-      - valid.wiki
+PoMo is the dataset introduced in our paper <em>PoMo: Generating Entity-Specific Post-Modifiers in Context</em> from NAACL 2019. 
 
 
-3. Dataset Fields
+#
+
+
+2. Post Modifier
+
+<introduce post-modifier briefly>
+
+3. Dataset
+
+3.1 Dataset Split
+
+The dataset is split into train/valid/test, along with their wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
+
+3.2 Dataset Sizes
+
+  - train: 220,615 (Unique Entities: 55,367)
+  - valid:   5,200 (Unique Entities: 1,257)
+  -  test:   5,242 (Unique Entities: 1,342)
+
+3.3 Dataset Fields
+
   - Post modifer dataset (*.pm)
     - A data file (train/test/valid) has following fields: (tab separated)
       - sent_wo_post_modifier: A sentence without a post modifier
@@ -27,8 +35,11 @@ Currently the dataset has post modifiers for <em>HUMAN</em> entities.
       - wiki_id: wikidata ID. Use this to look up the wikidata entity from the accompanying file.
       - prev_sent: The previous sentence before [sent]. "n/a" if [sent] is the first sentence.
       - next_sent: The next sentence after [sent]. "n/a" if [sent] is the last sentence.
-      - file_info: This field contains the source info. It is unique within the dataset. 
-                   The ones starts with year (1987-2007) are NYT, cnn for CNN and dm for DailyMail.
+      - context_sensitivity_crowd: Crowd sourced context sensitivity of the post-modifier of this instance to its context.
+      - file_info: This field contains the source of each instance: filepath and line number. 
+                   Since it is unique, it is used as an ID for each instance. 
+                   If the value of this field starts with a year (1987-2007), it indicates the instance is from NYT corpus.
+                   For instances extracted from CNN and DailyMail, this value starts with "cnn" and "dm" respectively.
 
 
   - Wikidata entity (*.wiki)
@@ -71,18 +82,16 @@ Currently the dataset has post modifiers for <em>HUMAN</em> entities.
             ```
 
 4. Data Sources
+
+  We used various data sources to construct PoMo. 
+  
   - CNN and DM
-    Used the tokenized CNN and Daily Mail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
+    Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
   - NYTimes
     Used the LDC's NYT corpus: http://www.ldc.upenn.edu
   - Wikidata
     Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download
     (Dump date: 2018/06/25)
     
-5. Dataset Size
-  * train: 220,615 (Entities: 55,367)
-  * valid:   5,200 (Entities: 1,257)
-  *  test:   5,242 (Entities: 1,342)
 
-  
 
