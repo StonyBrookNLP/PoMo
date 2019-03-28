@@ -5,12 +5,11 @@
 PoMo is the dataset introduced in our paper <em>PoMo: Generating Entity-Specific Post-Modifiers in Context</em> from NAACL 2019. 
 
 
-#
 
 
 2. Post Modifier
 
-<introduce post-modifier briefly>
+TODO: introduce post-modifier briefly
 
 3. Dataset
 
