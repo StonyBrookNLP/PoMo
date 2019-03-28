@@ -80,14 +80,14 @@
 
 4. Data Sources
 
-  We used various data sources to construct PoMo. 
+   We used various data sources to construct PoMo. 
   
-  - CNN and DM
-    - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
-  - NYTimes
-    - Used the LDC's NYT corpus: http://www.ldc.upenn.edu
-  - Wikidata
-    - Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
+   - CNN and DM
+     - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
+   - NYTimes
+     - Used the LDC's NYT corpus: http://www.ldc.upenn.edu
+   - Wikidata
+     - Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
     
 
 
