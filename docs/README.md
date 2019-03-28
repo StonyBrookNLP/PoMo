@@ -2,18 +2,18 @@
 
 1. Overview
 
-PoMo is the dataset introduced in our paper <em>PoMo: Generating Entity-Specific Post-Modifiers in Context</em> from NAACL 2019. 
+   PoMo is the dataset introduced in our paper <em>PoMo: Generating Entity-Specific Post-Modifiers in Context</em> from NAACL 2019. 
 
 
 2. Post Modifier
 
-TODO: introduce post-modifier briefly
+   TODO: introduce post-modifier briefly
 
 3. Dataset
 
    3.1 Dataset Split
 
-       The dataset is split into train/valid/test, along with their wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
+      The dataset is split into train/valid/test, along with their wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
 
    3.2 Dataset Sizes
 
@@ -82,12 +82,12 @@ TODO: introduce post-modifier briefly
 
   We used various data sources to construct PoMo. 
   
-    - CNN and DM
-      - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
-    - NYTimes
-      - Used the LDC's NYT corpus: http://www.ldc.upenn.edu
-    - Wikidata
-      - Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
+  - CNN and DM
+    - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
+  - NYTimes
+    - Used the LDC's NYT corpus: http://www.ldc.upenn.edu
+  - Wikidata
+    - Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
     
 
 
