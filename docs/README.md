@@ -1,27 +1,49 @@
 # PoMo: Post-Modifier dataset
 
-1. Overview
+### Overview
 
-   PoMo is the dataset introduced in our paper <em>PoMo: Generating Entity-Specific Post-Modifiers in Context</em> from NAACL 2019. 
+   PoMo is the dataset introduced in our paper *PoMo: Generating Entity-Specific Post-Modifiers in Context* from NAACL 2019. 
+   
+   *(A link will be provided when the paper is published.)*
 
 
-2. Post Modifier
+### Post-Modifier Generation Task
+   
+   Post-modifier is a short phrase that comes after an entity in a sentence to describe the entity in detail. It can be found easily in many news articles. For eaxmples, in the below sentence, `the MIT professor and antiwar activist` is the post-modifier of `Noam Chomsky`.
+     
+   ```
+   Noam Chomsky, the MIT professor and antiwar activist, said Dr. Melman helped mobilize what once was weak and scattered resistance to war and other military operations. 
+   ```
+    
+   We formulate post-modifier generation task as a data-to-text generation problem, where the data is the context (a sentence without a post-modifier) and the set of known facts about the target entity. The text to be generated is a post-modifier that is relevant to the rest of the information conveyed in the text. Below example shows the input and output of the task.
+     
+   ![Image of post-modifier generation task](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_small_github_page.png)
+   
 
-   TODO: introduce post-modifier briefly
+### Download
 
-3. Dataset
+   The dataset can be downloaded from https://github.com/StonyBrookNLP/PoMo
 
-   3.1 Dataset Split
+### Citation
+
+   Please use the following bibtex entry:
+
+   ```
+   (Coming soon)
+   ```
+
+### Dataset Information
+   - Dataset Split
 
       The dataset is split into train/valid/test, along with their wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
 
-   3.2 Dataset Sizes
+   - Dataset Sizes
 
       - train: 220,615 (Unique Entities: 55,367)
       - valid:   5,200 (Unique Entities: 1,257)
       -  test:   5,242 (Unique Entities: 1,342)
 
-   3.3 Dataset Fields
+   - Dataset Fields
 
       - Post modifer dataset (*.pm)
         - A data file (train/test/valid) has following fields: (tab separated)
@@ -78,16 +100,16 @@
                   }
                 ```
 
-4. Data Sources
+### Data Sources
 
    We used various data sources to construct PoMo. 
   
    - CNN and DM
      - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
    - NYTimes
-     - Used the LDC's NYT corpus: http://www.ldc.upenn.edu
+     - Used the LDC's NYT corpus from 1987 to 2007: http://www.ldc.upenn.edu
    - Wikidata
-     - Use the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
+     - Used the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
     
 
 
