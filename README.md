@@ -9,7 +9,7 @@
 
 ### Post-Modifier Generation Task
    
-   Post-modifier is a short phrase that comes after an entity in a sentence to describe the entity in detail. It can be found easily in many news articles. For eaxmples, in the below sentence, `the MIT professor and antiwar activist` is the post-modifier of `Noam Chomsky`.
+   Post-modifier is a short phrase that comes after an entity in a sentence to describe the entity in detail. It can be found easily in many news articles. For eaxmple, in the below sentence, `the MIT professor and antiwar activist` is the post-modifier of `Noam Chomsky`.
      
    
    >Noam Chomsky, the MIT professor and antiwar activist, said Dr. Melman helped mobilize what once was weak and scattered resistance to war and other military operations. 
