@@ -72,12 +72,9 @@
             - A list of   
               ```
               {
-              "property": [
-                  <field_name>,
-                  <value>],
-              "qualifiers": [
-                  <field_name>,
-                  <value>]]
+              "property": [<field_name>,<value>],
+              "qualifiers": [<field_name>,<value>]
+              "use":[<fileinfo_of_pm_instance>, ...]    // A list of fileinfos whose post-modifiers contain information of this claim. 
               }
               ```
 
@@ -98,7 +95,6 @@
                         "+2016-12-31T00:00:00Z"
                       ]
                     ],
-                    "use":[]   // a list of 
                   }
                 ```
 
