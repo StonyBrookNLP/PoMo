@@ -46,7 +46,7 @@
    - Dataset Fields
 
       - Post modifer dataset (*.pm)
-        - A data file (train/test/valid) has following fields: (tab separated)
+        - A data file (train.pm/test.pm/valid.pm) has following fields: (tab separated)
           - sent_wo_post_modifier: A sentence without a post modifier
           - entity_name: The entity that the post modifier depends on
           - post_modifier: The post modifier
@@ -63,7 +63,7 @@
 
 
       - Wikidata entity (*.wiki)
-        - A wikidata entity file(train.wiki/test.wiki/valid.wiki) has following fields:
+        - A wikidata entity file(train.wiki/test.wiki/valid.wiki) has following fields: (tab separated)
           - wikidata ID
           - entity_name: The wikidata entity's label
           - aliases: aliases of the label. “,” separated if there are more than one. 
