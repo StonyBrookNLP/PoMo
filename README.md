@@ -72,9 +72,9 @@
             - A list of   
               ```
               {
-              "property": [<field_name>,<value>],
-              "qualifiers": [<field_name>,<value>]
-              "use":[<fileinfo_of_pm_instance>, ...]    // A list of fileinfos whose post-modifiers contain information of this claim. 
+                 "property": [<field_name>,<value>],
+                 "qualifiers": [<field_name>,<value>]
+                 "use":[<fileinfo_of_pm_instance>, ...]    // A list of fileinfos whose post-modifiers contain information of this claim. 
               }
               ```
 
