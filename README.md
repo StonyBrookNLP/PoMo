@@ -22,7 +22,7 @@
 
 ### Download
 
-   The dataset can be downloaded from https://github.com/StonyBrookNLP/PoMo
+   The dataset can be downloaded from [https://github.com/StonyBrookNLP/PoMo](https://github.com/StonyBrookNLP/PoMo)
 
 ### Citation
 
@@ -103,9 +103,9 @@
    We used various data sources to construct PoMo. 
   
    - CNN and DM
-     - Used the tokenized CNN and DailyMail articles from: https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail
+     - Used the tokenized CNN and DailyMail articles from: [https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail](https://github.com/JafferWilson/Process-Data-of-CNN-DailyMail)
    - NYTimes
-     - Used the LDC's NYT corpus from 1987 to 2007: http://www.ldc.upenn.edu
+     - Used the LDC's NYT corpus from 1987 to 2007: [http://www.ldc.upenn.edu](http://www.ldc.upenn.edu)
    - Wikidata
-     - Used the wikidata dump from: https://www.wikidata.org/wiki/Wikidata:Database_download  (Dump date: 2018/06/25)
+     - Used the wikidata dump from: [https://www.wikidata.org/wiki/Wikidata:Database_download](https://www.wikidata.org/wiki/Wikidata:Database_download)  (Dump date: 2018/06/25)
     
