@@ -54,7 +54,8 @@
           - wiki_id: wikidata ID. Use this to look up the wikidata entity from the accompanying file.
           - prev_sent: The previous sentence before [sent]. "n/a" if [sent] is the first sentence.
           - next_sent: The next sentence after [sent]. "n/a" if [sent] is the last sentence.
-          - context_sensitivity_crowd: Crowd sourced context sensitivity of the post-modifier of this instance to its context. (only for valid & test. train has only -1)
+          - context_relevance_score: Crowd sourced context sensitivity of the post-modifier of this instance to its context
+            - 1:Not relevant, 5:Relevant   // For train, this field is set as 0.
           - file_info: This field contains the source of each instance: filepath and line number. 
                        Since it is unique, it is used as an ID for each instance. 
                        If the value of this field starts with a year (1987-2007), it indicates the instance is from NYT corpus.
