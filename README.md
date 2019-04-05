@@ -1,4 +1,3 @@
-[![LUNR Lab](https://www3.cs.stonybrook.edu/~junkang/images/new_lunr_logo3.png)](http://lunr.cs.stonybrook.edu/)
 
 # PoMo: Post-Modifier dataset
 
