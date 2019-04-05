@@ -35,7 +35,7 @@
 ### Dataset Information
    - Dataset Split
 
-      The dataset is split into train/valid/test, along with their wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
+      The dataset is split into train/valid/test, along with their Wikidata entities. The split was done randomly but there is no entity overlap accross the splits. The splits show similar distribution of entity occupations. 
 
    - Dataset Sizes
 
@@ -51,7 +51,7 @@
           - entity_name: The entity that the post modifier depends on
           - post_modifier: The post modifier
           - sent: A full sentence with the post modifier
-          - wiki_id: wikidata ID. Use this to look up the wikidata entity from the accompanying file.
+          - wiki_id: Wikidata ID. Use this to look up the Wikidata entity from the accompanying file.
           - prev_sent: The previous sentence before [sent]. "n/a" if [sent] is the first sentence.
           - next_sent: The next sentence after [sent]. "n/a" if [sent] is the last sentence.
           - context_relevance_score: Crowd sourced context sensitivity of the post-modifier of this instance to its context
@@ -64,10 +64,10 @@
 
       - Wikidata entity (*.wiki)
         - These files (train.wiki/test.wiki/valid.wiki) have following fields: (tab separated)
-          - wikidata ID
-          - entity_name: The wikidata entity's label
+          - Wikidata ID
+          - entity_name: The Wikidata entity's label
           - aliases: aliases of the label. “,” separated if there are more than one. 
-          - descriptions: description of the wikidata entity. “,” separated if there are more than one. 
+          - descriptions: description of the Wikidata entity. “,” separated if there are more than one. 
           - claims: processed claims of this entity in JSON. 
             - A list of   
               ```
@@ -107,5 +107,5 @@
    - NYTimes
      - Used the LDC's NYT corpus from 1987 to 2007: [http://www.ldc.upenn.edu](http://www.ldc.upenn.edu)
    - Wikidata
-     - Used the wikidata dump from: [https://www.wikidata.org/wiki/Wikidata:Database_download](https://www.wikidata.org/wiki/Wikidata:Database_download)  (Dump date: 2018/06/25)
+     - Used the Wikidata dump from: [https://www.wikidata.org/wiki/Wikidata:Database_download](https://www.wikidata.org/wiki/Wikidata:Database_download)  (Dump date: 2018/06/25)
     
