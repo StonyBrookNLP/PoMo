@@ -1,3 +1,5 @@
+[![LUNR Lab](https://www3.cs.stonybrook.edu/~junkang/images/new_lunr_logo3.png)](http://lunr.cs.stonybrook.edu/)
+
 # PoMo: Post-Modifier dataset
 
 ### Overview
@@ -17,7 +19,7 @@
     
    We formulate post-modifier generation task as a data-to-text generation problem, where the data is the context (a sentence without a post-modifier) and the set of known facts about the target entity. The text to be generated is a post-modifier that is relevant to the rest of the information conveyed in the text. Below example shows the input and output of the task.
      
-   ![Image of post-modifier generation task](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_small_github_page.png)
+   ![Image of post-modifier generation task](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_screenshot.png)
    
 
 ### Download
@@ -108,4 +110,17 @@
      - Used the LDC's NYT corpus from 1987 to 2007: [http://www.ldc.upenn.edu](http://www.ldc.upenn.edu)
    - Wikidata
      - Used the Wikidata dump from: [https://www.wikidata.org/wiki/Wikidata:Database_download](https://www.wikidata.org/wiki/Wikidata:Database_download)  (Dump date: 2018/06/25)
-    
+
+
+### Contributors
+   
+   - [Jun Seok Kang](https://www3.cs.stonybrook.edu/~junkang/) (Stony Brook University)
+   - [Robert L. Logan IV](https://rloganiv.github.io/) (University of California, Irvine)
+   - [Zewei Chu](http://people.cs.uchicago.edu/~zeweichu/) (University of Chicago)
+   - Yang Chen (University of Chicago)
+   - [Dheeru Dua](https://ddua.github.io/src/index.html) (University of California, Irvine)
+   - [Kevin Gimpel](https://ttic.uchicago.edu/~kgimpel/) (Toyota Technological Institute at Chicago)
+   - [Sameer Singh](http://sameersingh.org/) (University of California, Irvine)
+   - [Niranjan Balasubramanian](https://www3.cs.stonybrook.edu/~niranjan/) (Stony Brook University)
+      
+   
