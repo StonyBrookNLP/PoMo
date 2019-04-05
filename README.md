@@ -1,4 +1,4 @@
-[![LUNR Lab](https://www3.cs.stonybrook.edu/~junkang/images/new_lunr_logo3.png)](http://lunr.cs.stonybrook.edu/)
+[![LUNR Lab](https://www3.cs.stonybrook.edu/~junkang/images/new_lunr_logo3_small.png)](http://lunr.cs.stonybrook.edu/)
 
 # PoMo: Post-Modifier dataset
 
@@ -117,7 +117,7 @@
    - [Jun Seok Kang](https://www3.cs.stonybrook.edu/~junkang/) (Stony Brook University)
    - [Robert L. Logan IV](https://rloganiv.github.io/) (University of California, Irvine)
    - [Zewei Chu](http://people.cs.uchicago.edu/~zeweichu/) (University of Chicago)
-   - Yang Chen (University of Chicago)
+   - [Yang Chen](https://edchengg.github.io/) (University of Chicago)
    - [Dheeru Dua](https://ddua.github.io/src/index.html) (University of California, Irvine)
    - [Kevin Gimpel](https://ttic.uchicago.edu/~kgimpel/) (Toyota Technological Institute at Chicago)
    - [Sameer Singh](http://sameersingh.org/) (University of California, Irvine)
