@@ -19,7 +19,7 @@
     
    We formulate post-modifier generation task as a data-to-text generation problem, where the data is the context (a sentence without a post-modifier) and the set of known facts about the target entity. The text to be generated is a post-modifier that is relevant to the rest of the information conveyed in the text. Below example shows the input and output of the task.
      
-   [![Image of post-modifier generation task](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_screenshot.png)](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_screenshot_org_size.png)
+   [![Image of post-modifier generation task](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen.png)](https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_task_screenshot_org_size.png)
    
 
 ### Download
