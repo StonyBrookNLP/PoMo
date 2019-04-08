@@ -21,7 +21,7 @@
      
    
 
-   <a href="https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_large.png"><img src="https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_large.png" alt="Image of post-modifier generation task" width="50%"/></a>
+   <a href="https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_large.png"><img src="https://www3.cs.stonybrook.edu/~junkang/images/pm_gen_large.png" alt="Image of post-modifier generation task" width="500px"/></a>
 
 ### Download
 
