@@ -6,7 +6,7 @@
 
    PoMo is the dataset introduced in our paper *PoMo: Generating Entity-Specific Post-Modifiers in Context* from NAACL 2019. 
    
-   *(A link will be provided when the paper is published.)*
+   Our paper(arXiv version) has been released here: [https://arxiv.org/abs/1904.03111](https://arxiv.org/abs/1904.03111)
 
 
 ### Post-Modifier Generation Task
