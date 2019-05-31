@@ -32,7 +32,12 @@
    Please use the following bibtex entry:
 
    ```
-   (Coming soon)
+@inproceedings{Kang2019PoMo,
+  title={PoMo: Generating Entity-Specific Post-Modifiers in Context},
+  author={Jun Seok Kang and Robert L. Logan IV and Zewei Chu and Yang Chen and Dheeru Dua and Kevin Gimpel and Sameer Singh and Niranjan Balasubramanian},
+  booktitle={NAACL-HLT},
+  year={2019}
+}
    ```
 
 ### Dataset Information
